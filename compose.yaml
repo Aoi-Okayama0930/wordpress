@@ -11,7 +11,7 @@ services:
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: wordpress
     volumes:
-      - wordpress_data:/var/www/html
+      - ./wordpress_data:/var/www/html  # ホストマシンのディレクトリをマウント
     platform: linux/amd64  # 追加
 
   db:
@@ -24,7 +24,7 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: rootpassword
     volumes:
-      - db_data:/var/lib/mysql
+      - ./db_data:/var/lib/mysql  # ホストマシンのディレクトリをマウント
     ports:
       - "3306:3306"
     platform: linux/amd64  # 追加
