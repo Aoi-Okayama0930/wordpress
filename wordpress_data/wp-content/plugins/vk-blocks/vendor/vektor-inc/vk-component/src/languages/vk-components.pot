@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-06T01:33:26+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: vk-components\n"
+
+#: src/VK_Component_Posts.php:91
+msgid "Read more"
+msgstr ""
+
+#: src/VK_Component_Posts.php:93
+msgid "New!!"
+msgstr ""
+
+#: src/VK_Component_Posts.php:302
+msgid "More"
+msgstr ""
+
+#: src/VK_Component_Posts.php:338
+msgid "Posts navigation"
+msgstr ""
+
+#: src/VK_Component_Posts.php:339
+msgid "Posts"
+msgstr ""
+
+#: src/VK_Component_Posts.php:341
+msgid "Page"
+msgstr ""
+
+#: src/VK_Component_Posts.php:809
+msgid "Card"
+msgstr ""
+
+#: src/VK_Component_Posts.php:813
+msgid "Card Noborder"
+msgstr ""
+
+#: src/VK_Component_Posts.php:817
+msgid "Card Intext"
+msgstr ""
+
+#: src/VK_Component_Posts.php:821
+msgid "Card Horizontal"
+msgstr ""
+
+#: src/VK_Component_Posts.php:825
+msgid "Media"
+msgstr ""
+
+#: src/VK_Component_Posts.php:829
+msgctxt "post list type"
+msgid "Text 1 Column"
+msgstr ""

@@ -1,0 +1,733 @@
+# Translation of Plugins - VK Blocks - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - VK Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-17 05:26:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - VK Blocks - Stable (latest release)\n"
+
+#: inc/vk-blocks/build/blocks/visual-embed/block.json
+msgctxt "block description"
+msgid "Easily embed iframe content with a live preview in the editor, perfect for maps, videos, and other iframe-based media."
+msgstr "エディターでライブプレビュー付きのiframeコンテンツを簡単に埋め込むことができます。地図、動画、その他iframeベースのメディアに最適です。"
+
+#: inc/vk-blocks/build/blocks/visual-embed/block.json
+msgctxt "block title"
+msgid "Visual Embed"
+msgstr "ビジュアル埋め込み"
+
+#: inc/vk-blocks/view/class-vk-blocks-scrollhintrenderer.php:72
+#: inc/vk-blocks/build/block-build.js:7
+msgid "You can scroll"
+msgstr "スクロールできます"
+
+#: inc/vk-blocks/admin/admin.php:109 inc/vk-blocks/build/admin-build.js:1
+msgid "Block Category Position Setting"
+msgstr "ブロックカテゴリー位置設定"
+
+#: inc/vk-blocks/build/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading(not recommended)"
+msgstr "見出し (非推奨)"
+
+#: inc/vk-blocks/admin/admin.php:120 inc/vk-blocks/build/admin-build.js:19
+msgid "Import Export Tool"
+msgstr "インポート・エクスポートツール"
+
+#: inc/vk-blocks/admin/admin.php:119 inc/vk-blocks/build/admin-build.js:13
+#: inc/vk-blocks/build/admin-build.js:19
+msgid "Block Style Manager Setting"
+msgstr "ブロックスタイルマネージャー設定"
+
+#. Description of the plugin
+#: vk-blocks.php
+msgid "This is a plugin that extends Block Editor."
+msgstr "ブロックエディタを拡張するプラグインです。"
+
+#: inc/vk-css-optimize/config.php:13
+msgid "VK Blocks "
+msgstr "VK Blocks"
+
+#: inc/vk-blocks/admin/admin.php:113 inc/vk-blocks/build/admin-build.js:9
+#: inc/vk-blocks/build/admin-build.js:13 inc/vk-blocks/build/admin-build.js:19
+msgid "Custom Block Style Setting"
+msgstr "カスタムブロックスタイル設定"
+
+#: inc/vk-blocks/blocks.php:81
+msgid "Deprecated Blocks"
+msgstr "非推奨ブロック"
+
+#: inc/vk-blocks/admin/admin.php:118 inc/vk-blocks/build/admin-build.js:4
+#: inc/vk-blocks/build/admin-build.js:19
+msgid "Block Manager Setting"
+msgstr "ブロックマネージャー設定"
+
+#: inc/vk-blocks/admin/admin.php:112 inc/vk-blocks/build/admin-build.js:7
+#: inc/vk-blocks/build/admin-build.js:19
+msgid "Custom Format Setting"
+msgstr "カスタム書式設定"
+
+#: inc/vk-blocks/build/blocks/slider/block.json
+msgctxt "block description"
+msgid "This slider allows you to place various items.Slider is do not move in edit screen."
+msgstr "様々なアイテムを配置できるスライダーです。編集画面では動かないので公開画面でプレビューしてください。"
+
+#: inc/vk-blocks/build/blocks/slider/block.json
+msgctxt "block title"
+msgid "Slider"
+msgstr "スライダー"
+
+#: inc/vk-blocks/build/blocks/slider-item/block.json
+msgctxt "block description"
+msgid "This is one item in the slider."
+msgstr "スライダー内の１つのアイテムです。"
+
+#: inc/vk-blocks/build/blocks/slider-item/block.json
+msgctxt "block title"
+msgid "Slider Item"
+msgstr "スライダーアイテム"
+
+#: inc/vk-blocks/build/blocks/ancestor-page-list/index.php:91
+msgid "This message only display on the edit screen."
+msgstr "このメッセージは編集画面でのみ表示されます。"
+
+#: inc/vk-blocks/build/blocks/ancestor-page-list/index.php:91
+msgid "Because of the site editor have not child page that, the page list from ancestor is not displayed. Now displaying the dummy text list instead of the page list from ancestor."
+msgstr "サイトエディタには子ページがないため、先祖階層からのページ一覧は表示されません。 先祖階層からのページリストの代わりにダミーテキストのリストを表示しています。"
+
+#: inc/vk-blocks/build/blocks/ancestor-page-list/index.php:91
+msgid "Dummy Text"
+msgstr "ダミーテキスト"
+
+#: inc/vk-blocks/build/blocks/ancestor-page-list/index.php:44
+msgid "Ancestor Page Title"
+msgstr "先祖ページのタイトル"
+
+#: inc/vk-blocks/build/blocks/ancestor-page-list/block.json
+msgctxt "block description"
+msgid "Display Page list from ancestor page"
+msgstr "先祖階層からのページリストを表示します"
+
+#: inc/vk-blocks/build/blocks/ancestor-page-list/block.json
+msgctxt "block title"
+msgid "Page list from ancestor"
+msgstr "先祖階層からのページリスト"
+
+#: vk-blocks.php:353
+msgid "Re-acquisition of updates"
+msgstr "更新の再取得"
+
+#: vk-blocks.php:352
+msgid "If this display does not disappear even after entering a valid license key, re-acquire the update."
+msgstr "有効なライセンスキーを入力してもこの表示が消えない場合は更新の再取得をしてください。"
+
+#: vk-blocks.php:349
+msgid "Enter the license key"
+msgstr "ライセンスキーを入力"
+
+#: vk-blocks.php:342
+msgid "Please enter a valid license key for any of the following products on the settings screen."
+msgstr "設定画面で以下のいずれかの製品の有効なライセンスキーを入力してください。"
+
+#: vk-blocks.php:321
+msgid "The VK Blocks Pro license is invalid."
+msgstr "VK Blocks Pro のライセンスが無効です。"
+
+#: vk-blocks.php:316
+msgid "License Key has no registered."
+msgstr "ライセンスキーが登録されていません。"
+
+#: inc/vk-blocks/admin/admin.php:107 inc/vk-blocks/build/admin-build.js:19
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: inc/vk-blocks/build/blocks/pr-blocks/block.json
+msgctxt "block description"
+msgid "This is a PR block where you can place images and icon. But currently, it is possible to create the same layout by combining Column Block and Icon Block, so this block is not recommended. Please check Columns category of Block Patterns."
+msgstr "画像やアイコンを配置できるPRブロックです。 ただし、現在、列ブロックとアイコンブロックを組み合わせて同じレイアウトを作成できるため、このブロックはお勧めしません。 ブロックパターンの「カラム（Column）」のカテゴリを確認してください。"
+
+#: inc/vk-blocks/build/blocks/pr-blocks/block.json
+msgctxt "block title"
+msgid "PR Blocks (not recommended)"
+msgstr "PR Blocks (非推奨)"
+
+#: inc/vk-blocks/font-awesome/class-vk-blocks-font-awesome-api.php:73
+msgid "Setting saved."
+msgstr "設定を保存しました。"
+
+#. translators: %s: 投稿タイプ名
+#: inc/vk-blocks/view/class-vk-blocks-postlist.php:290
+msgid "There are no %ss."
+msgstr "該当の%sはありません。"
+
+#: inc/vk-blocks/view/class-vk-blocks-postlist.php:286
+msgid "Post"
+msgstr "投稿"
+
+#: inc/vk-blocks/admin/admin.php:116
+msgid "Load Separete Setting"
+msgstr "分割読み込み設定"
+
+#: inc/vk-blocks/build/blocks/staff/block.json
+msgctxt "block title"
+msgid "Staff"
+msgstr "スタッフ"
+
+#: inc/vk-blocks/build/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Responsive Spacer"
+msgstr "レスポンシブスペーサー"
+
+#: inc/vk-blocks/build/blocks/pr-content/block.json
+msgctxt "block title"
+msgid "PR Content"
+msgstr "PR Content"
+
+#: inc/vk-blocks/build/blocks/page-content/block.json
+msgctxt "block title"
+msgid "Page Content"
+msgstr "固定ページ本文"
+
+#: inc/vk-blocks/build/blocks/icon/block.json
+msgctxt "block title"
+msgid "Icon"
+msgstr "アイコン"
+
+#: inc/vk-blocks/build/blocks/icon-outer/block.json
+msgctxt "block title"
+msgid "Icon Outer"
+msgstr "横並びアイコン"
+
+#: inc/vk-blocks/build/blocks/flow/block.json
+msgctxt "block title"
+msgid "Flow"
+msgstr "フロー"
+
+#: inc/vk-blocks/build/blocks/faq2/block.json
+msgctxt "block title"
+msgid "New FAQ"
+msgstr "新 FAQ"
+
+#: inc/vk-blocks/build/blocks/faq2-q/block.json
+msgctxt "block title"
+msgid "FAQ Question"
+msgstr "FAQ 質問"
+
+#: inc/vk-blocks/build/blocks/faq2-a/block.json
+msgctxt "block title"
+msgid "FAQ Answer"
+msgstr "FAQ 回答"
+
+#: inc/vk-blocks/build/blocks/faq/block.json
+msgctxt "block title"
+msgid "Classic FAQ"
+msgstr "旧 FAQ"
+
+#: inc/vk-blocks/build/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "ボタン"
+
+#: inc/vk-blocks/build/blocks/border-box/block.json
+msgctxt "block title"
+msgid "Border Box"
+msgstr "枠線ボックス"
+
+#: inc/vk-blocks/build/blocks/balloon/block.json
+msgctxt "block title"
+msgid "Ballon"
+msgstr "吹き出し"
+
+#: inc/vk-blocks/build/blocks/alert/block.json
+msgctxt "block title"
+msgid "Alert"
+msgstr "アラート"
+
+#: inc/vk-blocks/build/blocks/icon-outer/block.json
+msgctxt "block description"
+msgid "Display the Font Awesome icons horizontally."
+msgstr "Font Awesome のアイコンフォントを横並びに表示します"
+
+#: inc/vk-blocks/build/blocks/icon/block.json
+msgctxt "block description"
+msgid "Display icons with Font Awesome."
+msgstr "Font Awesome のアイコンフォントを表示します"
+
+#: inc/vk-blocks/build/blocks/staff/block.json
+msgctxt "block description"
+msgid "Used for staff introduction, company introduction, school introduction, menu, etc."
+msgstr "スタッフ紹介,会社紹介,スクール紹介,メニューなどで利用します。"
+
+#: inc/vk-blocks/build/blocks/spacer/block.json
+msgctxt "block description"
+msgid "Use responsive spacers to get the margins right."
+msgstr "レスポンシブに対応したスペーサーで余白を適切に取ります。"
+
+#: inc/vk-blocks/build/blocks/pr-content/block.json
+msgctxt "block description"
+msgid "This is PR content where you can place images, headlines, text, and buttons."
+msgstr "画像,見出し,テキスト,ボタンが配置できるPRコンテンツです。"
+
+#: inc/vk-blocks/build/blocks/page-content/block.json
+msgctxt "block description"
+msgid "Displays the body content of the specified parent page."
+msgstr "指定した基準ページの本文内容を表示します。"
+
+#: inc/vk-blocks/build/blocks/heading/block.json
+msgctxt "block description"
+msgid "This is a heading that allows you to set text size, subtext, icon, and margin."
+msgstr "文字サイズ,サブテキスト,アイコン,余白が設定できる見出しです。"
+
+#: inc/vk-blocks/build/blocks/flow/block.json
+msgctxt "block description"
+msgid "Displays a sequential description in time series."
+msgstr "時系列で順を追った説明を表示します。"
+
+#: inc/vk-blocks/build/blocks/faq2/block.json
+msgctxt "block description"
+msgid "It displays a combination of questions and answers. You can freely add blocks to the question area as well."
+msgstr "質問と回答を組み合わせて表示します。質問エリアにも自由にブロックを追加できます。"
+
+#: inc/vk-blocks/build/blocks/faq2-q/block.json
+msgctxt "block description"
+msgid "Question area where you can freely add blocks."
+msgstr "自由にブロックを追加できる質問エリアです。"
+
+#: inc/vk-blocks/build/blocks/faq2-a/block.json
+msgctxt "block description"
+msgid "Answer area where you can add blocks freely."
+msgstr "自由にブロックを追加できる回答エリアです。"
+
+#: inc/vk-blocks/build/blocks/faq/block.json
+msgctxt "block description"
+msgid "Displays a combination of questions and answers."
+msgstr "質問と回答を組み合わせて表示します。"
+
+#: inc/vk-blocks/build/blocks/button/block.json
+msgctxt "block description"
+msgid "A button link that can display icons before and after."
+msgstr "前後にアイコンを表示できるボタンリンクです。"
+
+#: inc/vk-blocks/build/blocks/border-box/block.json
+msgctxt "block description"
+msgid "This is a border box where you can place headings to attract attention."
+msgstr "見出しを配置でき注目されやすい枠線ボックスです。"
+
+#: inc/vk-blocks/build/blocks/balloon/block.json
+msgctxt "block description"
+msgid "These speech balloons are perfect for recreating conversations."
+msgstr "会話の再現などに最適な吹き出しです。"
+
+#: inc/vk-blocks/build/blocks/alert/block.json
+msgctxt "block description"
+msgid "A colored box with four statuses, including annotations and alerts."
+msgstr "注釈や注意など4つのステータスがある色付きのボックスです。"
+
+#: inc/vk-blocks/admin/admin.php:115 inc/vk-blocks/build/admin-build.js:4
+msgid "Common Margin Setting"
+msgstr "共通余白設定"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:84
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this plugin: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this plugin: %1$s."
+msgstr[0] "このプラグインとの最大の互換性を確保するには、次のプラグインを最新バージョンに更新する必要があります： %1$s。"
+
+#. translators:
+#: inc/tgm-plugin-activation/tgm-config.php:78
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] "このプラグインは下記プラグインを必要としています：%1$s。"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:532
+#: inc/vk-blocks/build/block-build.js:7
+msgid "Extra big"
+msgstr "特大"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:527
+#: inc/vk-blocks/build/block-build.js:7
+msgid "Big"
+msgstr "大"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:396
+msgid "Border / Stripes"
+msgstr "枠線 / ストライプ"
+
+#: inc/vk-blocks/admin/admin.php:110
+msgid "Balloon Block Setting"
+msgstr "吹き出しブロック設定"
+
+#: vk-blocks.php:99
+msgid "Disabled Blocks module on VK All in One Expansion Unit. Because VK-Blocks Plugin running."
+msgstr "VK-Blocksと競合するため、VK All in One Expansion Unitの Block機能を停止しました。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:80
+msgid "This plugin recommends the following plugin: %1$s.<br>Many additional functions are available for free."
+msgid_plural "This plugin recommends the following plugins: %1$s.<br>Many additional functions are available for free."
+msgstr[0] "このプラグインは次のプラグインと一緒に利用するのがオススメです：%1$s。<br>これらのプラグインは無償で利用可能です。"
+
+#. translators: %s = dashboard link.
+#: inc/tgm-plugin-activation/tgm-config.php:109
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:107
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインを正常にインストールし、有効化しました。 %1$s"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:105
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "プラグインを有効化できませんでした。このテーマはプラグイン %s の現在のバージョンをサポートしていません。プラグインを更新してください。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:103
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効化されています。"
+
+#: inc/tgm-plugin-activation/tgm-config.php:101
+msgid "The following plugin was activated successfully:"
+msgstr "次のプラグインを有効化しました:"
+
+#: inc/tgm-plugin-activation/tgm-config.php:100
+msgid "Plugin activated successfully."
+msgstr "プラグインを有効化しました。"
+
+#: inc/tgm-plugin-activation/tgm-config.php:99
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインのインストール画面に戻る"
+
+#: inc/tgm-plugin-activation/tgm-config.php:98
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/tgm-plugin-activation/tgm-config.php:97
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始する"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:96
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:94
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "%1$sプラグインを有効化するための適切な権限がありません。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:92
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "推奨プラグインが現在有効化されていません： %1$s。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:90
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "必須プラグインが現在有効化されていません： %1$s。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:88
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "%1$sプラグインを更新するための適切な権限がありません。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:86
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "次のプラグインの更新が利用可能です：%1$s。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:82
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "%1$sプラグインをインストールするための適切な権限がありません。"
+
+#: inc/tgm-plugin-activation/tgm-config.php:76
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#. translators: %s = plugin name.
+#: inc/tgm-plugin-activation/tgm-config.php:75
+msgid "Installing Plugin: %s"
+msgstr "プラグイン %s をインストール中"
+
+#: inc/tgm-plugin-activation/tgm-config.php:73
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: inc/tgm-plugin-activation/tgm-config.php:72
+msgid "Install Required Plugins"
+msgstr "必須プラグインのインストール"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:402
+msgid "Rounded02"
+msgstr "角丸2"
+
+#: inc/vk-blocks/build/blocks/page-content/index.php:123
+msgid "Edit this area"
+msgstr "このエリアを編集"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:517
+#: inc/vk-blocks/build/block-build.js:1 inc/vk-blocks/build/block-build.js:7
+msgid "Small"
+msgstr "小"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:442
+msgid "Wave04"
+msgstr "流体シェイプ4"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:438
+msgid "Wave03"
+msgstr "流体シェイプ3"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:434
+msgid "Wave02"
+msgstr "流体シェイプ2"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:430
+msgid "Wave01"
+msgstr "流体シェイプ1"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:422
+msgid "Photo frame Tilt Left"
+msgstr "フォトフレーム傾き左"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:418
+msgid "Photo frame Tilt Right"
+msgstr "フォトフレーム傾き右"
+
+#: inc/admin-notices.php:36 inc/admin-notices.php:42
+msgid "https://www.vektor-inc.co.jp/service/wordpress-plugins/vk-blocks/"
+msgstr "https://www.vektor-inc.co.jp/service/wordpress-plugins/vk-blocks/"
+
+#. translators: 1: opening a tag, 2: closing a tag
+#: inc/admin-notices.php:35
+msgid "Thank you for using VK Blocks. We've released VK Blocks Pro. It has more custom blocks to build web site more easily. If you are interested in VK Blocks Pro, Please read %1$s this post %2$s for more details."
+msgstr "いつもVK Blocksをご利用いただきありがとうございます。この度、VK Blocks Proをリリースしました。より簡単にWebサイトを構築するためのカスタムブロックが追加されています。VK Blocks Proに興味がある方は、詳しくは%1$sこの記事%2$sを読んでみてください。"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:406
+#: inc/vk-blocks/build/block-build.js:1
+msgid "Circle"
+msgstr "正円"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:522
+#: inc/vk-blocks/build/block-build.js:1 inc/vk-blocks/build/block-build.js:7
+msgid "Normal"
+msgstr "標準"
+
+#: inc/vk-blocks/admin/admin.php:100
+msgid "Blocks Setting"
+msgstr "Blocks 設定"
+
+#: inc/vk-blocks/admin/admin.php:84
+msgctxt "label in admin menu"
+msgid "Blocks"
+msgstr "Blocks"
+
+#: inc/vk-blocks/admin/admin.php:83
+msgid "Blocks setting"
+msgstr "Blocks 設定"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:426
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:476
+msgid "Shadow"
+msgstr "シャドウ"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:388
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:472
+msgid "Border Top Bottom"
+msgstr "直線 上下"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:468
+msgid "Stitch"
+msgstr "スティッチ"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:464
+msgid "Double"
+msgstr "二重線"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:460
+msgid "Dashed"
+msgstr "Dashed"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:456
+msgid "Dotted"
+msgstr "点線"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:452
+msgid "Solid Roundcorner"
+msgstr "直線 角丸"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:448
+#: inc/vk-blocks/build/block-build.js:7
+msgid "Solid"
+msgstr "直線"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:382
+msgid "Numbered Square"
+msgstr "数字-四角"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:378
+msgid "Numbered Circle"
+msgstr "数字-丸"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:374
+msgid "Frown"
+msgstr "不満顔"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:370
+msgid "Smile"
+msgstr "笑顔"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:366
+msgid "Pencil"
+msgstr "鉛筆"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:362
+msgid "Handpoint"
+msgstr "指"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:358
+msgid "Check Circle"
+msgstr "チェック-丸"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:354
+msgid "Check Square"
+msgstr "チェック（四角）"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:350
+msgid "Check"
+msgstr "チェック"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:346
+msgid "Triangle"
+msgstr "三角"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:342
+msgid "Arrow"
+msgstr "矢印"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:336
+msgid "Brackets black"
+msgstr "括弧 黒"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:332
+msgid "Both ends"
+msgstr "左右線"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:328
+msgid "Dotted border bottom black"
+msgstr "点線 下線 黒"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:324
+msgid "Solid border bottom black"
+msgstr "直線 下線 黒"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:320
+msgid "Solid border top and bottom black"
+msgstr "直線 上下 黒"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:316
+msgid "Double border bottom black"
+msgstr "二重線 下線 黒"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:312
+msgid "Double border top and bottom black"
+msgstr "二重線 上下線 黒"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:308
+msgid "Background fill lightgray"
+msgstr "背景塗り 灰色"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:304
+#: inc/vk-blocks/build/block-build.js:4
+msgid "Plain"
+msgstr "装飾無し"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:414
+msgid "Photo frame"
+msgstr "フォトフレーム"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:392
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:410
+#: inc/vk-blocks/build/block-build.js:1
+msgid "Border"
+msgstr "枠線"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:492
+#: inc/vk-blocks/build/block-build.js:1 inc/vk-blocks/build/block-build.js:7
+msgid "Danger"
+msgstr "Danger"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:488
+#: inc/vk-blocks/build/block-build.js:1 inc/vk-blocks/build/block-build.js:7
+msgid "Warning"
+msgstr "Warning"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:480
+#: inc/vk-blocks/build/block-build.js:1 inc/vk-blocks/build/block-build.js:7
+msgid "Info"
+msgstr "Info"
+
+#: inc/vk-blocks/class-vk-blocks-global-settings.php:484
+#: inc/vk-blocks/build/block-build.js:1 inc/vk-blocks/build/block-build.js:7
+msgid "Success"
+msgstr "Success"
+
+#: inc/admin-notices.php:46
+msgid "Dismiss this notice"
+msgstr "通知を無視"
+
+#: inc/admin-notices.php:43
+msgid "See more"
+msgstr "続きを見る"
+
+#: inc/admin-notices.php:28
+msgid "We've released VK Blocks Pro!"
+msgstr "VK Blocks Pro を公開しました!"
+
+#: inc/vk-blocks/blocks.php:27 inc/vk-blocks/blocks.php:67
+msgid "Blocks Layout"
+msgstr "ブロックレイアウト"
+
+#: inc/vk-blocks/blocks.php:40 inc/vk-blocks/blocks.php:54
+msgid "Blocks"
+msgstr "Blocks"
+
+#. Author URI of the plugin
+#: vk-blocks.php
+msgid "https://vektor-inc.co.jp"
+msgstr "https://vektor-inc.co.jp"
+
+#: inc/vk-blocks/admin/admin.php:135
+msgid "Setting"
+msgstr "設定"
+
+#. Author of the plugin
+#: vk-blocks.php
+msgid "Vektor,Inc."
+msgstr "Vektor,Inc."
+
+#. Plugin URI of the plugin
+#: vk-blocks.php
+msgid "https://github.com/vektor-inc/vk-blocks"
+msgstr "https://github.com/vektor-inc/vk-blocks"
+
+#. Plugin Name of the plugin
+#: vk-blocks.php
+msgid "VK Blocks"
+msgstr "VK Blocks"

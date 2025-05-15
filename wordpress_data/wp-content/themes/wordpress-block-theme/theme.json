@@ -1,0 +1,218 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "primary",
+                    "color": "#000000",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#BDD5F0",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "accent",
+                    "color": "#FF8A6F",
+                    "name": "Accent"
+                },
+                {
+                    "slug": "background",
+                    "color": "#ffffff",
+                    "name": "Background"
+                },
+                {
+                    "slug": "text",
+                    "color": "#000000",
+                    "name": "Text"
+                }
+            ],
+            "custom": true,
+            "customGradient": true
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "14px",
+                    "name": "Small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "24px",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "large",
+                    "size": "36px",
+                    "name": "Large"
+                },
+                {
+                    "slug": "x-large",
+                    "size": "96px",
+                    "name": "Extra Large"
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Racing Sans One', sans-serif",
+                    "slug": "racing-sans",
+                    "name": "Racing Sans"
+                },
+                {
+                    "fontFamily": "'Adamina', serif",
+                    "slug": "adamina",
+                    "name": "Adamina"
+                },
+                {
+                    "fontFamily": "'Fredoka One', sans-serif",
+                    "slug": "fredoka",
+                    "name": "Fredoka"
+                },
+                {
+                    "fontFamily": "Arial, sans-serif",
+                    "slug": "system",
+                    "name": "System Font"
+                }
+            ],
+            "lineHeight": true,
+            "customFontSize": true
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "units": ["px", "em", "rem", "%", "vw", "vh"],
+            "spacingSizes": [
+                {
+                    "slug": "20",
+                    "size": "20px",
+                    "name": "1"
+                },
+                {
+                    "slug": "30",
+                    "size": "30px",
+                    "name": "2"
+                },
+                {
+                    "slug": "40",
+                    "size": "40px",
+                    "name": "3"
+                },
+                {
+                    "slug": "50",
+                    "size": "50px",
+                    "name": "4"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "840px",
+            "wideSize": "1440px"
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "blocks": {
+            "core/paragraph": {
+                "color": {
+                    "custom": true
+                },
+                "typography": {
+                    "fontSizes": true,
+                    "customFontSize": true
+                }
+            },
+            "core/button": {
+                "color": {
+                    "custom": true
+                },
+                "border": {
+                    "radius": true
+                }
+            }
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--background)",
+            "text": "var(--wp--preset--color--text)"
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--system)",
+            "lineHeight": "1.5"
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--racing-sans)",
+                    "fontSize": "var(--wp--preset--font-size--x-large)",
+                    "lineHeight": "1.2"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--adamina)",
+                    "fontSize": "var(--wp--preset--font-size--large)"
+                }
+            },
+            "button": {
+                "color": {
+                    "background": "var(--wp--preset--color--secondary)",
+                    "text": "var(--wp--preset--color--text)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--fredoka)",
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                },
+                "border": {
+                    "radius": "50px"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--primary)"
+                }
+            }
+        }
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "title": "Footer",
+            "area": "footer"
+        }
+    ],
+    "customTemplates": [
+        {
+            "name": "blog",
+            "title": "ブログページ",
+            "postTypes": ["page"]
+        },
+        {
+            "name": "about",
+            "title": "会社概要ページ",
+            "postTypes": ["page"]
+        },
+        {
+            "name": "services",
+            "title": "サービスページ",
+            "postTypes": ["page"]
+        },
+        {
+            "name": "contact",
+            "title": "お問い合わせページ",
+            "postTypes": ["page"]
+        }
+    ]
+}

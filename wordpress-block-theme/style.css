@@ -1,0 +1,360 @@
+/*
+Theme Name: Figma Block Theme
+Theme URI: 
+Author: Your Name
+Author URI: 
+Description: A WordPress block theme inspired by Figma design
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: figma-block-theme
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+Tags: block-theme, full-site-editing, editor-style, figma
+*/
+
+/* Webフォントの読み込み */
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Fredoka+One&family=Racing+Sans+One&display=swap');
+
+/* この下にカスタムCSSを追加できます */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* フロントページのレイアウト */
+.wp-block-group:has(.home-page-text) {
+    position: relative;
+    min-height: 1024px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* トップカバー画像 */
+.wp-block-cover.image-1 {
+    position: absolute !important;
+    left: 2px !important;
+    top: 0 !important;
+    width: 1436px !important;
+    height: 309px !important;
+    margin: 0 !important;
+}
+
+/* ヘッダーテキスト */
+.home-page-text {
+    position: absolute !important;
+    left: 320px !important;
+    top: 32px !important;
+    width: 800px !important;
+    height: 200px !important;
+    font-family: 'Racing Sans One', sans-serif !important;
+    font-size: 96px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: rgba(0, 0, 0, 1.0) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    margin: 0 !important;
+}
+
+/* 説明テキスト */
+.description-text {
+    position: absolute !important;
+    left: 755px !important;
+    top: 419px !important;
+    width: 579px !important;
+    height: 291px !important;
+    font-family: 'Adamina', serif !important;
+    font-size: 36px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    color: rgba(0, 0, 0, 1.0) !important;
+    margin: 0 !important;
+}
+
+/* OKボタン */
+.wp-block-buttons:has(.ok-button) {
+    position: absolute !important;
+    margin: 0 !important;
+    left: 826px !important;
+    top: 761px !important;
+}
+
+.wp-block-button.ok-button {
+    width: 145px !important;
+    height: 88px !important;
+    margin: 0 !important;
+}
+
+.wp-block-button.ok-button .wp-block-button__link {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(189, 213, 240, 1.0) !important;
+    border-radius: 50px !important;
+    font-family: 'Fredoka One', sans-serif !important;
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: rgba(0, 0, 0, 1.0) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+}
+
+/* QUITボタン */
+.wp-block-button.quit-button {
+    width: 205px !important;
+    height: 88px !important;
+    position: absolute !important;
+    left: 219px !important;
+    top: 0 !important;
+    margin: 0 !important;
+}
+
+.wp-block-button.quit-button .wp-block-button__link {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(255, 138, 111, 1.0) !important;
+    border-radius: 50px !important;
+    font-family: 'Fredoka One', sans-serif !important;
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: rgba(0, 0, 0, 1.0) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+}
+
+/* 画像2 */
+.image-2 {
+    position: absolute !important;
+    left: 80px !important;
+    top: 433px !important;
+    width: 550px !important;
+    height: 393px !important;
+    border-radius: 40px !important;
+    margin: 0 !important;
+}
+
+/* 画像3 */
+.image-3 {
+    position: absolute !important;
+    left: 971px !important;
+    top: 32px !important;
+    width: 405px !important;
+    height: 213px !important;
+    margin: 0 !important;
+    z-index: 5 !important;
+}
+
+/* デフォルトのブロックスタイルを上書き */
+.wp-site-blocks .wp-block-group:not(.has-background) {
+    padding: 0;
+}
+
+main .wp-block-group.is-layout-constrained {
+    padding: 0;
+}
+
+.is-style-default .wp-block-column {
+    margin: 0;
+}
+
+/* ヘッダーフッターを非表示（フロントページのみ） */
+body.home .wp-block-template-part.header,
+body.home .wp-block-template-part.footer {
+    display: none;
+}
+
+/* ヘッダーナビゲーション */
+.wp-block-navigation {
+    font-family: var(--wp--preset--font-family--adamina);
+}
+
+.wp-block-navigation .wp-block-navigation-item__content {
+    padding: 5px 10px;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content:hover {
+    color: var(--wp--preset--color--secondary);
+}
+
+.nav-contact-btn .wp-block-navigation-item__content {
+    background-color: var(--wp--preset--color--accent);
+    border-radius: 30px;
+    padding: 8px 20px;
+    color: #ffffff;
+}
+
+.nav-contact-btn .wp-block-navigation-item__content:hover {
+    background-color: var(--wp--preset--color--primary);
+    color: #ffffff;
+}
+
+/* お問い合わせフォーム */
+.contact-form {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: var(--wp--preset--font-family--system);
+    font-weight: 600;
+}
+
+.form-group .required {
+    color: #ff4040;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-family: var(--wp--preset--font-family--system);
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-button .submit-button {
+    background-color: var(--wp--preset--color--accent);
+    color: var(--wp--preset--color--text);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-family: var(--wp--preset--font-family--fredoka);
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button .submit-button:hover {
+    background-color: var(--wp--preset--color--secondary);
+}
+
+/* ブログページのグリッドレイアウト */
+.blog-post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 1440px) {
+    .wp-block-group:has(.home-page-text) {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .wp-block-cover.image-1,
+    .home-page-text,
+    .description-text,
+    .wp-block-buttons:has(.ok-button),
+    .image-2,
+    .image-3 {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+    }
+    
+    .wp-block-cover.image-1 {
+        margin-bottom: 20px !important;
+    }
+    
+    .home-page-text {
+        font-size: 60px !important;
+        text-align: center !important;
+        margin: 20px auto !important;
+    }
+    
+    .description-text {
+        font-size: 28px !important;
+        margin: 20px 0 !important;
+    }
+    
+    .wp-block-buttons:has(.ok-button) {
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 20px 0 !important;
+        align-items: center !important;
+    }
+    
+    .wp-block-button.ok-button,
+    .wp-block-button.quit-button {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        margin: 10px 0 !important;
+    }
+    
+    .image-2 {
+        margin: 20px 0 !important;
+    }
+    
+    .image-3 {
+        position: absolute !important;
+        left: auto !important;
+        right: 20px !important;
+        top: 50px !important;
+        width: 150px !important;
+        height: auto !important;
+    }
+    
+    /* レスポンシブ時のナビゲーション */
+    .has-modal-open .wp-block-navigation__responsive-container-content {
+        padding: 20px;
+    }
+    
+    /* レスポンシブ時のブロググリッド */
+    .blog-post-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page-text {
+        font-size: 40px !important;
+    }
+    
+    .description-text {
+        font-size: 20px !important;
+    }
+    
+    .image-3 {
+        width: 100px !important;
+    }
+    
+    .wp-block-columns {
+        flex-wrap: wrap;
+    }
+    
+    .wp-block-column {
+        flex-basis: 100% !important;
+        margin-bottom: 30px;
+    }
+}

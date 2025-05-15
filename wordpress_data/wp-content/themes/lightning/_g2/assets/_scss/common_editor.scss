@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import "variables";
+// VK Components is no using image that using sass is no probrem.
+@import "../../../vendor/vektor-inc/vk-component/src/assets/scss/vk-components.scss";
+@import "block/block";
+@import "block/block_editor";
+@import "block/block_editor_width";
+
+@import "bootstrap_overwrite";
+@import "common";
+@import "common-editor";
+
+// 単位選択のプルダウン WP6.0調整上書き
+.components-unit-control__select {
+	margin-bottom:0;
+}
+// 長い単位に対応
+.components-base-control .components-input-control__container select.components-unit-control__select {
+	max-width: 38px;
+	padding-left:0;
+	padding-right:0;
+}
+.components-base-control .components-input-control__container input.components-input-control__input {
+	padding-left:8px;
+}
+
+// URL入力欄のフォーム WP6.0調整上書き
+input[type="text"].block-editor-media-placeholder__url-input-field{
+	width:unset;
+	margin:0;
+	border-radius: unset;
+	padding: 0.5em;
+}

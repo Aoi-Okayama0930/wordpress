@@ -1,0 +1,22 @@
+{
+    "devDependencies": {
+        "@wordpress/env": "^10.13.0",
+        "autoprefixer": "^10.4.20",
+        "gulp": "^5.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-merge-media-queries": "^0.2.1",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^10.0.0",
+        "gulp-sass": "^6.0.0",
+        "npm-check-updates": "^17.1.11",
+        "sass": "^1.82.0"
+    },
+    "scripts": {
+        "wp-env": "wp-env",
+        "update": "ncu -u && rm -rf node_modules package-lock.json && npm install",
+        "build": "gulp build && npm run translate",
+        "build:pot": "wp i18n make-pot . src/languages/vk-components.pot",
+        "translate": "npm run build:pot && cd src/languages && wp i18n make-php . && cd ../../",
+        "phpunit": "wp-env run tests-cli --env-cwd='wp-content/plugins/vk-component' vendor/bin/phpunit -c .phpunit.xml"
+    }
+}

@@ -1,0 +1,28 @@
+/*
+Theme Name: WordPress Block Theme
+Theme URI: 
+Author: Your Name
+Author URI: 
+Description: A WordPress block theme with full site editing capability.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wordpress-block-theme
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+Tags: block-theme, full-site-editing, editor-style, wide-blocks
+*/
+
+/* 
+このファイルはテーマ識別用のみです。
+ブロックテーマのスタイルはtheme.jsonによって管理されます。
+カスタムCSSが必要な場合はここに追加できます。
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 必要に応じてtheme.jsonで設定できないカスタムCSSをここに追加してください */

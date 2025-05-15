@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*-------------------------------------------*/
+/*	第二階層マウスホバー展開処理
+/*-------------------------------------------*/
+.global-nav-list > li {
+	& > ul.sub-menu {
+		position: absolute;
+		z-index: 10; /* これがないとスライドの下などに隠れる */
+	}
+	
+	/*
+    If except the 'ul' from .gMenu that overwrited by vk-mobile-nav absolute on such as vws.
+    */
+	& > .sub-menu {
+		position: absolute;
+		z-index: 1500;
+		display: block;
+		overflow: hidden;
+
+		// プルダウン展開
+		opacity: 0;
+		max-height: 0;
+		transition: all 0.5s;
+	}
+
+	.device-pc & {
+		&:focus-within,
+		&:hover {
+			> .sub-menu, // 2 layers
+			li:focus-within > .sub-menu { // 3 layers after
+				opacity: 1;
+				max-height: 80vh;
+				overflow-y: auto;
+			}
+		}
+	}
+
+
+	.device-mobile & {
+		& > .sub-menu.acc-child-close {
+			opacity: 0;
+			max-height: 0;
+		}
+		& > .sub-menu.acc-child-open {
+			opacity: 1;
+			max-height: 80vh;
+			overflow-y: auto;
+		}
+	}
+}

@@ -1,0 +1,135 @@
+/*
+Theme Name: Figma Block Theme
+Theme URI: 
+Author: Your Name
+Author URI: 
+Description: A WordPress block theme inspired by Figma design
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: figma-block-theme
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+Tags: block-theme, full-site-editing, editor-style, figma
+*/
+
+/* Webフォントの読み込み */
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Fredoka+One&family=Racing+Sans+One&display=swap');
+
+/* この下にカスタムCSSを追加できます */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* フロントページの特別なスタイル */
+.home-page-text {
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 96px;
+    text-align: center;
+}
+
+.description-text {
+    font-family: 'Adamina', serif;
+    font-size: 36px;
+}
+
+/* ブロックタイプごとのカスタムスタイル */
+.wp-block-button.ok-button .wp-block-button__link {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.wp-block-button.quit-button .wp-block-button__link {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+/* フロントページ編集のための追加スタイル */
+.front-page-container {
+    position: relative;
+    min-height: 1024px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* 編集可能なコンテンツエリア */
+.content-editable-area {
+    position: relative;
+    max-width: 600px;
+    margin-left: 755px;
+    margin-top: 400px;
+    z-index: 10;
+}
+
+.content-editable-area .description-text {
+    font-family: 'Adamina', serif !important;
+    font-size: 36px !important; 
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+}
+
+.content-editable-area .wp-block-buttons {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    margin-top: 30px !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.content-editable-area .wp-block-button {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    margin-right: 15px !important;
+}
+
+/* 管理バーの表示を修正 */
+.admin-bar .wp-site-blocks {
+    padding-top: 0;
+}
+
+.edit-post-visual-editor__post-title-wrapper {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+/* WPの管理パネルのスタイルを修正 */
+.interface-interface-skeleton__editor {
+    max-width: 100%;
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 1440px) {
+    .home-page-text {
+        font-size: 72px;
+    }
+    
+    .description-text {
+        font-size: 28px;
+    }
+    
+    .content-editable-area {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page-text {
+        font-size: 48px;
+    }
+    
+    .description-text {
+        font-size: 24px;
+    }
+    
+    .wp-block-button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

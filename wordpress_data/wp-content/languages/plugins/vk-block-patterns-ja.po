@@ -1,0 +1,122 @@
+# Translation of Plugins - VK Block Patterns - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - VK Block Patterns - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-05 09:44:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - VK Block Patterns - Stable (latest release)\n"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:146
+msgid "Unspecified"
+msgstr "指定なし"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:130
+msgid "You can set this pattern as the default pattern for a specific post type."
+msgstr "このパターンを特定の投稿タイプの初期パターンとして設定する事ができます。"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:27
+msgid "Initial pattern setting"
+msgstr "初期パターン設定"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:164
+msgid "If there are multiple patterns with \"Auto Add\" selected for one post type, only the oldest pattern will be inserted."
+msgstr "1つの投稿タイプに「自動挿入」を選択したパターンが複数ある場合、最も古いパターンのみが挿入されます。"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:151
+msgid "How to Add Patterns."
+msgstr "パターンの追加方式"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:147
+msgid "Auto add"
+msgstr "自動挿入"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:148
+msgid "Show in Candidate"
+msgstr "候補に表示"
+
+#: inc/vk-block-patterns/package/class-add-meta-box.php:133
+msgid "Target Post Type."
+msgstr "対象の投稿タイプ"
+
+#: admin/admin.php:63 build/admin/index.js:1 src/admin/index.js:330
+msgid "Patterns data cache setting"
+msgstr "パターンデータキャッシュ設定"
+
+#: favorite-patterns/favorite-patterns.php:156
+msgid "X-T9"
+msgstr "X-T9"
+
+#: admin/admin.php:193 admin/admin.php:203 admin/admin.php:215
+msgid "Dismiss"
+msgstr "このメッセージを表示しない"
+
+#: admin/admin.php:191 admin/admin.php:213
+msgid "Go to VK Block Patterns Setting"
+msgstr "VK Block Patterns 設定"
+
+#: admin/admin.php:59 build/admin/index.js:1 src/admin/index.js:178
+msgid "Default Pattern Setting"
+msgstr "デフォルトパターン設定"
+
+#: favorite-patterns/favorite-patterns.php:127
+msgid "Favorites of VK Pattern Library"
+msgstr "VK Pattern Library のお気に入り"
+
+#: admin/admin.php:62 build/admin/index.js:1 src/admin/index.js:229
+msgid "VK Pattern Library Setting"
+msgstr "VK Pattern Library 設定"
+
+#: vk-block-patterns.php:100
+msgid "Setting"
+msgstr "設定"
+
+#: admin/admin.php:58 build/admin/index.js:1 src/admin/index.js:127
+msgid "Role Setting"
+msgstr "権限設定"
+
+#: admin/admin.php:53
+msgid "Block Patterns Setting"
+msgstr "Block Patterns 設定"
+
+#: admin/admin.php:37
+msgctxt "label in admin menu"
+msgid "Block Patterns"
+msgstr "Block Patterns"
+
+#: admin/admin.php:36
+msgid "Block Patterns setting"
+msgstr "Block Patterns 設定"
+
+#: inc/vk-block-patterns/package/class-vk-block-patterns.php:59
+msgid "Category"
+msgstr "カテゴリー"
+
+#. Author URI of the plugin
+#: vk-block-patterns.php
+msgid "https://vektor-inc.co.jp"
+msgstr "https://vektor-inc.co.jp"
+
+#. Author of the plugin
+#: vk-block-patterns.php
+msgid "Vektor,Inc."
+msgstr "Vektor,Inc."
+
+#. Description of the plugin
+#: vk-block-patterns.php
+msgid "You can make and register your original custom block patterns."
+msgstr "独自のブロックパターンを作成して登録する事ができます。"
+
+#. Plugin URI of the plugin
+#: vk-block-patterns.php
+msgid "https://github.com/vektor-inc/vk-block-patterns"
+msgstr "https://github.com/vektor-inc/vk-block-patterns"
+
+#. Plugin Name of the plugin
+#: vk-block-patterns.php
+msgid "VK Block Patterns"
+msgstr "VK Block Patterns"

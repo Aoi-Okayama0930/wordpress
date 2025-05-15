@@ -1,0 +1,39 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained","contentSize":"840px"}} -->
+<main class="wp-block-group">
+    <!-- wp:post-title {"level":1,"textAlign":"center","style":{"typography":{"fontFamily":"var:preset|font-family|racing-sans","fontSize":"64px"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} /-->
+    
+    <!-- wp:post-featured-image {"style":{"border":{"radius":"20px"}}} /-->
+    
+    <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
+    <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)">
+        <!-- wp:columns {"verticalAlignment":"center"} -->
+        <div class="wp-block-columns are-vertically-aligned-center">
+            <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
+            <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                <!-- wp:post-date {"style":{"typography":{"fontFamily":"var:preset|font-family|adamina"}}} /-->
+            </div>
+            <!-- /wp:column -->
+
+            <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
+            <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                <!-- wp:post-author {"showAvatar":true,"showBio":false,"byline":"By","textAlign":"right","style":{"typography":{"fontFamily":"var:preset|font-family|adamina"}}} /-->
+            </div>
+            <!-- /wp:column -->
+        </div>
+        <!-- /wp:columns -->
+    </div>
+    <!-- /wp:group -->
+    
+    <!-- wp:post-content {"style":{"typography":{"fontFamily":"var:preset|font-family|system"}}} /-->
+    
+    <!-- wp:spacer {"height":"40px"} -->
+    <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    
+    <!-- wp:post-comments /-->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

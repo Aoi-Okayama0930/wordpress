@@ -2,7 +2,7 @@ services:
   wordpress:
     image: wordpress:latest
     container_name: wordpress
-    restart: always
+    restart: no
     ports:
       - "8080:80"
     environment:
@@ -17,7 +17,7 @@ services:
   db:
     image: mysql:5.7
     container_name: wordpress_db
-    restart: always
+    restart: no
     environment:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: user

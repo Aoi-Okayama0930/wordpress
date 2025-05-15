@@ -1,0 +1,23 @@
+{
+    "name": "vektor-inc/vk-component",
+    "description": "Vektor Component",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "VektorInc\\VK_Component\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vektor,Inc.",
+            "email": "kurudrive@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "wp-phpunit/wp-phpunit": "^6.7",
+        "yoast/phpunit-polyfills": "^3.0"
+    },
+    "require": {
+        "vektor-inc/vk-term-color": "^0.7.1"
+    }
+}

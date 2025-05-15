@@ -1,0 +1,21 @@
+{
+  "apiVersion": 2,
+  "name": "vk-blocks/faq",
+  "title": "Classic FAQ",
+  "category": "vk-blocks-cat",
+  "description": "Displays a combination of questions and answers.",
+  "textdomain": "vk-blocks",
+  "editorScript": "vk-blocks-build-js",
+  "editorStyle": "vk-blocks-build-editor-css",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "source": "html",
+      "selector": "dt"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  }
+}

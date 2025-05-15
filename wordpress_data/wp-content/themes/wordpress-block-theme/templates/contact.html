@@ -1,0 +1,97 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"800px"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50)">
+    <!-- wp:heading {"level":1,"align":"center","style":{"typography":{"fontFamily":"var:preset|font-family|racing-sans","fontSize":"64px"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+    <h1 class="wp-block-heading has-text-align-center" style="font-family:var(--wp--preset--font-family--racing-sans);font-size:64px;margin-bottom:var(--wp--preset--spacing--40)">お問い合わせ</h1>
+    <!-- /wp:heading -->
+
+    <!-- wp:paragraph {"align":"center","style":{"typography":{"fontFamily":"var:preset|font-family|adamina","fontSize":"18px"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
+    <p class="has-text-align-center" style="font-family:var(--wp--preset--font-family--adamina);font-size:18px;margin-bottom:var(--wp--preset--spacing--50)">ご質問やお見積もりのご依頼など、<br>お気軽にお問い合わせください。<br>担当者が丁寧にご対応いたします。</p>
+    <!-- /wp:paragraph -->
+
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}},"border":{"radius":"15px","width":"1px","color":"var:preset|color|secondary"}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--secondary);border-width:1px;border-radius:15px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
+        <!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|adamina","fontSize":"24px"}}} -->
+        <h3 class="wp-block-heading" style="font-family:var(--wp--preset--font-family--adamina);font-size:24px">お問い合わせフォーム</h3>
+        <!-- /wp:heading -->
+
+        <!-- wp:html -->
+        <div class="contact-form">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前 <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">メールアドレス <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">件名</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">メッセージ <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <div class="form-button">
+                    <button type="submit" class="submit-button">送信する</button>
+                </div>
+            </form>
+        </div>
+        <!-- /wp:html -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:spacer {"height":"40px"} -->
+    <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
+    <!-- wp:columns -->
+    <div class="wp-block-columns">
+        <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|adamina","fontSize":"24px"}}} -->
+            <h3 class="wp-block-heading" style="font-family:var(--wp--preset--font-family--adamina);font-size:24px">住所</h3>
+            <!-- /wp:heading -->
+
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|system"}}} -->
+            <p style="font-family:var(--wp--preset--font-family--system)">〒123-4567<br>東京都渋谷区〇〇町1-2-3<br>〇〇ビル5F</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|adamina","fontSize":"24px"}}} -->
+            <h3 class="wp-block-heading" style="font-family:var(--wp--preset--font-family--adamina);font-size:24px">営業時間</h3>
+            <!-- /wp:heading -->
+
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|system"}}} -->
+            <p style="font-family:var(--wp--preset--font-family--system)">平日: 9:00 - 18:00<br>土日祝: 休業</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:heading {"level":3,"style":{"typography":{"fontFamily":"var:preset|font-family|adamina","fontSize":"24px"}}} -->
+            <h3 class="wp-block-heading" style="font-family:var(--wp--preset--font-family--adamina);font-size:24px">お電話</h3>
+            <!-- /wp:heading -->
+
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var:preset|font-family|system"}}} -->
+            <p style="font-family:var(--wp--preset--font-family--system)">03-1234-5678</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

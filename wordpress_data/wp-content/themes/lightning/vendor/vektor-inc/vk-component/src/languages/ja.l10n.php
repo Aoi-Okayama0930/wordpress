@@ -1,0 +1,2 @@
+<?php
+return ['domain'=>'vk-components','plural-forms'=>NULL,'language'=>'ja','project-id-version'=>'','pot-creation-date'=>'2024-12-06T00:49:32+00:00','po-revision-date'=>'2024-12-06 10:32+0900','x-generator'=>'Poedit 3.5','messages'=>['Read more'=>'続きを読む','New!!'=>'New!!','More'=>'もっと','Posts navigation'=>'投稿ナビゲーション','Posts'=>'投稿','Page'=>'固定ページ','Card'=>'カード','Card Noborder'=>'カード縁無し','Card Intext'=>'カード・インテキスト','Card Horizontal'=>'カード水平','Media'=>'メディア','post list typeText 1 Column'=>'テキスト 1 カラム']];

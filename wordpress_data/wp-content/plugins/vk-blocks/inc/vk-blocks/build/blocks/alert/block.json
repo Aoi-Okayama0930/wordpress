@@ -1,0 +1,30 @@
+{
+  "apiVersion": 2,
+  "name": "vk-blocks/alert",
+  "category": "vk-blocks-cat",
+  "title": "Alert",
+  "description": "A colored box with four statuses, including annotations and alerts.",
+  "textdomain": "vk-blocks",
+  "attributes": {
+    "style": {
+      "type": "string",
+      "default": "info"
+    },
+    "icon": {
+      "type": "string",
+      "default": ""
+    },
+    "iconText": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    }
+  },
+  "supports": {
+    "className": true
+  }
+}

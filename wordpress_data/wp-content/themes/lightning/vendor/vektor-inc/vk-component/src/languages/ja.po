@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-06T00:49:32+00:00\n"
+"PO-Revision-Date: 2024-12-06 10:32+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: vk-components\n"
+
+#: src/VK_Component_Posts.php:91
+msgid "Read more"
+msgstr "続きを読む"
+
+#: src/VK_Component_Posts.php:93
+msgid "New!!"
+msgstr "New!!"
+
+#: src/VK_Component_Posts.php:302
+msgid "More"
+msgstr "もっと"
+
+#: src/VK_Component_Posts.php:338
+msgid "Posts navigation"
+msgstr "投稿ナビゲーション"
+
+#: src/VK_Component_Posts.php:339
+msgid "Posts"
+msgstr "投稿"
+
+#: src/VK_Component_Posts.php:341
+msgid "Page"
+msgstr "固定ページ"
+
+#: src/VK_Component_Posts.php:809
+msgid "Card"
+msgstr "カード"
+
+#: src/VK_Component_Posts.php:813
+msgid "Card Noborder"
+msgstr "カード縁無し"
+
+#: src/VK_Component_Posts.php:817
+msgid "Card Intext"
+msgstr "カード・インテキスト"
+
+#: src/VK_Component_Posts.php:821
+msgid "Card Horizontal"
+msgstr "カード水平"
+
+#: src/VK_Component_Posts.php:825
+msgid "Media"
+msgstr "メディア"
+
+#: src/VK_Component_Posts.php:829
+msgctxt "post list type"
+msgid "Text 1 Column"
+msgstr "テキスト 1 カラム"
